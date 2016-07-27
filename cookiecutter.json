@@ -1,8 +1,8 @@
 {
-	"full_name": "Steven Loria",
-	"email": "sloria1@gmail.com",
-	"github_username": "sloria",
-	"project_name": "My Flask App",
-	"app_name": "myflaskapp",
-	"project_short_description": "A flasky app."
+	"full_name": "Ayush jain",
+	"email": "ayushdev31@gmail.com",
+	"github_username": "ayushj31",
+	"project_name": "Dockerised Flask App",
+	"app_name": "doerisedflask",
+	"project_short_description": "A Docker Flask App."
 }
