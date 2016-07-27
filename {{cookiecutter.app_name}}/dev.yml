@@ -1,0 +1,17 @@
+services:
+
+ flask:
+    build:
+      context: .
+      dockerfile: .Dockerfile
+    command: python /app/manage.py server 0.0.0.0:8000
+#    depends_on:
+#      - sqlite
+#    environment:
+#      - POSTGRES_USER=tixdo
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+#    links:
+#      - sqlite
